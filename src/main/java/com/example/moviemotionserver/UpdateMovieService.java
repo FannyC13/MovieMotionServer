@@ -20,7 +20,7 @@ public class UpdateMovieService {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/projet_api", "root", "Tennis92!")) {
+            try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviemotion", "root", "MySQL")) {
 
                 MovieDAO movieDAO = new MovieDAO(connection);
                 movieDAO.updateMovie(movie);

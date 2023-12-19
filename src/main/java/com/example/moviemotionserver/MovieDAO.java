@@ -18,8 +18,8 @@ public class MovieDAO {
             try (PreparedStatement statement = connection.prepareStatement(sql)) {
                 statement.setString(1, movie.getTitre());
                 statement.setString(2, movie.getRealisateur());
-                statement.setInt(3, movie.getDurationMin());
-                statement.setInt(4, movie.getAge());
+                statement.setString(3, movie.getDurationMin());
+                statement.setString(4, movie.getAge());
                 statement.setString(5, movie.getActeursPrincipaux());
                 statement.setString(6, movie.getSynopsis());
                 statement.setString(7, movie.getDateSortie());
@@ -56,8 +56,8 @@ public class MovieDAO {
             try (PreparedStatement statement = connection.prepareStatement(sql)) {
                 statement.setString(1, movie.getTitre());
                 statement.setString(2, movie.getRealisateur());
-                statement.setInt(3, movie.getDurationMin());
-                statement.setInt(4, movie.getAge());
+                statement.setString(3, movie.getDurationMin());
+                statement.setString(4, movie.getAge());
                 statement.setString(5, movie.getActeursPrincipaux());
                 statement.setString(6, movie.getSynopsis());
                 statement.setString(7, movie.getDateSortie());

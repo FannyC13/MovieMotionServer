@@ -26,7 +26,7 @@ public class Movie_By_Title {
             e.printStackTrace();
         }
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/projet_api", "root", "Tennis92!")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviemotion", "root", "MySQL")) {
             String sql = "SELECT * FROM movie WHERE titre = ?";
 
             try (PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -38,8 +38,8 @@ public class Movie_By_Title {
                         movie.setIdMovie(resultSet.getInt("ID_movie"));
                         movie.setTitre(resultSet.getString("titre"));
                         movie.setRealisateur(resultSet.getString("realisateur"));
-                        movie.setDurationMin(resultSet.getInt("Duration"));
-                        movie.setAge(resultSet.getInt("age"));
+                        movie.setDurationMin(resultSet.getString("duration"));
+                        movie.setAge(resultSet.getString("age"));
                         movie.setActeursPrincipaux(resultSet.getString("acteurs_principaux"));
                         movie.setSynopsis(resultSet.getString("synopsis"));
                         movie.setDateSortie(resultSet.getString("date_sortie"));

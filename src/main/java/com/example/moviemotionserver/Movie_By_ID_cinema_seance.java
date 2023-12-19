@@ -27,7 +27,7 @@ public class Movie_By_ID_cinema_seance {
             e.printStackTrace();
         }
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/projet_api", "root", "Tennis92!")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviemotion", "root", "MySQL")) {
             String sql = "SELECT * FROM Seance JOIN Movie ON Seance.ID_movie = Movie.ID_movie" +
                     " JOIN Cinema ON Cinema.ID_cinema = Seance.ID_cinema WHERE Movie.ID_movie = ?";
 

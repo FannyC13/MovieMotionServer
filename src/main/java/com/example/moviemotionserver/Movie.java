@@ -5,8 +5,8 @@ public class Movie {
     private int idMovie;
     private String titre;
     private String realisateur;
-    private int durationMin;
-    private int age;
+    private String durationMin;
+    private String age;
     private String acteursPrincipaux;
     private String synopsis;
     private String dateSortie;
@@ -45,21 +45,21 @@ public class Movie {
         this.realisateur = realisateur;
     }
 
-    @JsonProperty("Duration")
-    public int getDurationMin() {
+    @JsonProperty("duration")
+    public String getDurationMin() {
         return durationMin;
     }
 
-    public void setDurationMin(int durationMin) {
+    public void setDurationMin(String durationMin) {
         this.durationMin = durationMin;
     }
 
     @JsonProperty("age")
-    public int getAge() {
+    public String getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 

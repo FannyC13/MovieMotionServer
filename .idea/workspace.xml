@@ -10,34 +10,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="add40269-7533-44a8-8903-a9915d0ac1f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/AddMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Cinema_All.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/DeleteMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/HelloResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_All.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID_cinema_seance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_Title.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance_All.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/UpdateMovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+    <list default="true" id="2c3c3ebb-cd52-4ad7-b6b0-ec437fd49743" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/AddMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/AddMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/DeleteMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/DeleteMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID_cinema_seance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID_cinema_seance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_Title.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance_All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/UpdateMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/UpdateMovieService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -61,37 +55,53 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="2ZFwcsfgY49ESXJoUne8jYv4y4f" />
+  <component name="ProjectId" id="2ZBZqaaaCPozun2o0h8ouJnQ0TF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "backendConnexion",
+    "last_opened_file_path": "C:/Users/fchan/OneDrive - Efrei/M1/Semestre 7/Big Data Applications I/Api and Webservices/MovieMotion_Project/MovieMotionServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.20229885",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ],
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.moviemotionserver" />
-    </key>
-  </component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080//MovieMotionServer" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
         <artifact name="MovieMotionServer:war exploded">
           <settings>
@@ -105,7 +115,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="1757dde2-e2ba-4ec8-9810-4543bc8c39fd" />
+        <option name="BASE_DIRECTORY_NAME" value="f7dabf0e-5d9c-42b2-addd-eadfa40bfe0d" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -113,7 +123,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="63844" />
+        <option name="DEBUG_PORT" value="60878" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -187,17 +197,40 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="add40269-7533-44a8-8903-a9915d0ac1f3" name="Changes" comment="" />
-      <created>1702031223079</created>
+      <changelist id="2c3c3ebb-cd52-4ad7-b6b0-ec437fd49743" name="Changes" comment="" />
+      <created>1701897629154</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1702031223079</updated>
-      <workItem from="1702031224148" duration="25292000" />
-      <workItem from="1702723800600" duration="2202000" />
+      <updated>1701897629154</updated>
+      <workItem from="1701897630182" duration="183000" />
+      <workItem from="1701897876116" duration="8297000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="backendConnexion" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
