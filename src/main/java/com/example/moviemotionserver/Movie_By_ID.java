@@ -35,7 +35,7 @@ public class Movie_By_ID {
                 try (ResultSet resultSet = statement.executeQuery()) {
                     while (resultSet.next()) {
                         Movie movie = new Movie();
-                        movie.setIdMovie(resultSet.getInt("ID_movie"));
+                        movie.setIdMovie(resultSet.getInt("Id_movie"));
                         movie.setTitre(resultSet.getString("titre"));
                         movie.setRealisateur(resultSet.getString("realisateur"));
                         movie.setDurationMin(resultSet.getString("duration"));
@@ -46,6 +46,7 @@ public class Movie_By_ID {
                         movie.setTrailer(resultSet.getString("trailer"));
                         movie.setLangue(resultSet.getString("langue"));
                         movie.setImageSrc(resultSet.getString("image_src"));
+                        movie.setGenres(resultSet.getString("genres"));
                         movie.setDateDebut(resultSet.getString("Date_debut"));
                         movie.setDateFin(resultSet.getString("Date_fin"));
 

@@ -12,14 +12,17 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Path("/seances_all")
 public class Seance_All {
+
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Seance> getSeances() {
-        List<Seance> seances = new ArrayList<>();
+    public List<Map<String, Object>> getSeancesWithMovies() {
+        List<Map<String, Object>> seancesWithMovies = new ArrayList<>();
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -27,31 +30,31 @@ public class Seance_All {
             e.printStackTrace();
         }
 
-        String sql = "SELECT * FROM Seance JOIN Movie ON Seance.ID_movie = Movie.ID_movie";
+        String sql = "SELECT * FROM Seance JOIN Movie ON Seance.ID_movie = Movie.ID_movie JOIN Cinema on Cinema.Id_cinema = Seance.Id_cinema";
 
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/moviemotion", "root", "MySQL");
              PreparedStatement statement = connection.prepareStatement(sql);
              ResultSet resultSet = statement.executeQuery()) {
 
             while (resultSet.next()) {
-                Seance seance = new Seance();
-                seance.setIdSeance(resultSet.getInt("Id_seance"));
-                seance.setVersion(resultSet.getString("version"));
-                seance.setDateSeance(resultSet.getString("date_seance"));
-                seance.setIdCinema(resultSet.getInt("Id_cinema"));
+                Map<String, Object> seanceMap = new HashMap<>();
+                seanceMap.put("Id_seance", resultSet.getInt("Id_seance"));
+                seanceMap.put("version", resultSet.getString("version"));
+                seanceMap.put("heure", resultSet.getString("heure"));
+                seanceMap.put("dateSeance", resultSet.getString("date_seance"));
+                seanceMap.put("Id_cinema", resultSet.getInt("Id_cinema"));
+                seanceMap.put("cinema", resultSet.getString("cinema"));
+                seanceMap.put("Id_movie", resultSet.getInt("Id_movie"));
+                seanceMap.put("titre", resultSet.getString("titre"));
+                seanceMap.put("dateSortie", resultSet.getString("date_sortie"));
 
-                Movie movie = new Movie();
-                movie.setIdMovie(resultSet.getInt("ID_movie"));
-                movie.setTitre(resultSet.getString("titre"));
-                movie.setDateSortie(resultSet.getString("date_sortie"));
-
-                seances.add(seance);
+                seancesWithMovies.add(seanceMap);
             }
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
-        return seances;
+        return seancesWithMovies;
     }
 }

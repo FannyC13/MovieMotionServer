@@ -16,9 +16,11 @@ public class Movie {
     private String dateDebut;
     private String dateFin;
 
+    private String genres;
+
     public Movie() {
     }
-    @JsonProperty("ID_movie")
+    @JsonProperty("Id_movie")
     public int getIdMovie() {
         return idMovie;
     }
@@ -35,6 +37,16 @@ public class Movie {
     public void setTitre(String titre) {
         this.titre = titre;
     }
+
+    @JsonProperty("genres")
+    public String getGenres() {
+        return genres;
+    }
+
+    public void setGenres(String genres) {
+        this.genres = genres;
+    }
+
 
     @JsonProperty("realisateur")
     public String getRealisateur() {

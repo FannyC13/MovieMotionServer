@@ -44,6 +44,7 @@ public class Movie_All {
                 movie.setTrailer(resultSet.getString("trailer"));
                 movie.setLangue(resultSet.getString("langue"));
                 movie.setImageSrc(resultSet.getString("image_src"));
+                movie.setGenres(resultSet.getString("genres"));
                 movie.setDateDebut(resultSet.getString("Date_debut"));
                 movie.setDateFin(resultSet.getString("Date_fin"));
 
