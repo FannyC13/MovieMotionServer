@@ -13,7 +13,7 @@ public class MovieDAO {
 
     public void addMovie(Movie movie) {
         try {
-            String sql = "INSERT INTO Movie (titre, realisateur, Duration, age, acteurs_principaux, synopsis, date_sortie, trailer, langue, image_src, Date_debut, Date_fin) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            String sql = "INSERT INTO Movie (titre, realisateur, duration, age, acteurs_principaux, synopsis, date_sortie, trailer, langue, image_src,genres) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
             try (PreparedStatement statement = connection.prepareStatement(sql)) {
                 statement.setString(1, movie.getTitre());
@@ -26,8 +26,7 @@ public class MovieDAO {
                 statement.setString(8, movie.getTrailer());
                 statement.setString(9, movie.getLangue());
                 statement.setString(10, movie.getImageSrc());
-                statement.setString(11, movie.getDateDebut());
-                statement.setString(12, movie.getDateFin());
+                statement.setString(11, movie.getGenres());
 
                 statement.executeUpdate();
             }
@@ -49,8 +48,8 @@ public class MovieDAO {
     }
     public void updateMovie(Movie movie) {
         try {
-            String sql = "UPDATE Movie SET titre=?, realisateur=?, Duration=?, age=?, acteurs_principaux=?, " +
-                    "synopsis=?, date_sortie=?, trailer=?, langue=?, image_src=?, Date_debut=?, Date_fin=? " +
+            String sql = "UPDATE Movie SET titre=?, realisateur=?, duration=?, age=?, acteurs_principaux=?, " +
+                    "synopsis=?, date_sortie=?, trailer=?, langue=?, image_src=?, Date_debut=?, Date_fin=?, genres =? " +
                     "WHERE ID_movie=?";
 
             try (PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -67,7 +66,7 @@ public class MovieDAO {
                 statement.setString(11, movie.getDateDebut());
                 statement.setString(12, movie.getDateFin());
                 statement.setInt(13, movie.getIdMovie());
-
+                statement.setString(14,movie.getGenres());
                 statement.executeUpdate();
             }
         } catch (SQLException e) {

@@ -10,26 +10,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3c3ebb-cd52-4ad7-b6b0-ec437fd49743" name="Changes" comment="Changes Int to String">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/CinemaDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/CinemaInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/DateFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/DateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieCinemaSeance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieSeance.java" afterDir="false" />
+    <list default="true" id="2c3c3ebb-cd52-4ad7-b6b0-ec437fd49743" name="Changes" comment="Add Classes MovieCinemaSeance and modify Seances_all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Cinema_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Cinema_All.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_All.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_ID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Movie_By_Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance_All.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/Seance_All.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/moviemotionserver/MovieDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701897629154</updated>
       <workItem from="1701897630182" duration="183000" />
-      <workItem from="1701897876116" duration="24554000" />
+      <workItem from="1701897876116" duration="26512000" />
     </task>
     <task id="LOCAL-00001" summary="Changes Int to String">
       <option name="closed" value="true" />
@@ -231,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703006249229</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add Classes MovieCinemaSeance and modify Seances_all">
+      <option name="closed" value="true" />
+      <created>1703103017957</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703103017957</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +253,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes Int to String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes Int to String" />
+    <MESSAGE value="Add Classes MovieCinemaSeance and modify Seances_all" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Classes MovieCinemaSeance and modify Seances_all" />
   </component>
 </project>
